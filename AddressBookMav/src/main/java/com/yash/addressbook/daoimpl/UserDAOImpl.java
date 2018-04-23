@@ -15,7 +15,7 @@ import com.yash.addressbook.util.JNDIDBUtil;
 
 @Repository
 public class UserDAOImpl implements UserDAO {
-	private Logger logger = Logger.getLogger(UserDAOImplTest.class);
+	private Logger logger = Logger.getLogger(UserDAOImpl.class);
 
 	@Override
 	public int insert(User user) {
